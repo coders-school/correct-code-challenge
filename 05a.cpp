@@ -7,7 +7,7 @@
  */
 int parseQuantity(const char *word) {
     if (!word) {
-        return -1; // word can't be null
+        return 0; // word can't be null
     }
     if (*word < '0' || *word > '9') {
         return 0;
@@ -26,7 +26,7 @@ int parseQuantity(const char *word) {
         }
     }
     if (parsingResult > 2147483647) {
-        return -2; // word can't be parsed (too much number)
+        return (int) (parsingResult / 10); // word can't be parsed (too much number)
     }
     return (int) parsingResult;
 }
