@@ -29,11 +29,11 @@ Więcej szczegółów oraz dokładne wymagania dostaniesz na swój email po podj
 Super, to odpowiedz tylko najpierw na jedno bardzo ważne pytanie, a potem jedziesz z koksem!
 
 Które z poniższych zdarzeń powodują niezdefiniowane zachowanie?
-[x] Zapis lub odczyt danych poza zakresem tablicy
-[x] Zapis lub odczyt pustego wskaźnika
-[x] Przepełnienie arytmetyczne liczby całkowitej ze znakiem
-[x] Użycie niezainicjalizowanej zmiennej
-[ ] Zwalnianie pamięci wskazywanej przez pusty wskaźnik
+* [x] Zapis lub odczyt danych poza zakresem tablicy
+* [x] Zapis lub odczyt pustego wskaźnika
+* [x] Przepełnienie arytmetyczne liczby całkowitej ze znakiem
+* [x] Użycie niezainicjalizowanej zmiennej
+* [ ] Zwalnianie pamięci wskazywanej przez pusty wskaźnik
 
 ### Dokładne wymagania
 
@@ -90,7 +90,6 @@ Przykłady:
 | 14.cpp       |                                              | 0/23 ✅ | 23     | Krzysztof C.                          |
 | 015a.cpp     | dodany `#include <cstring>` (użyte `strlen`) | 11/23  | 12     | Sebastian B.                          |
 | 16.cpp       |                                              | 9/23   | 14     | Michał P.                             |
-| solution.cpp |                                              | 0/23 ✅ | 23     | Łukasz Ziobroń <lukasz@coders.school> |
 
 ## Zwycięzcy
 
